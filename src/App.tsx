@@ -1,9 +1,5 @@
-
 import "./App.css";
 import { Layout } from "./components/Layout";
-// import Contacts from "./components/Contacts";
-// import Projects from "./components/Projects";
-// import Title from "./components/Title";
 import { BrowserRouter, Route, Routes } from "react-router";
 import MainPage from "./pages/MainPage";
 import ProjectsPage from "./pages/ProjectsPage";
@@ -22,11 +18,6 @@ function App() {
         </Layout>
       </BrowserRouter>
 
-      {/* <Title />
-
-      <Contacts></Contacts>
-
-      <Projects></Projects> */}
     </>
   );
 }
