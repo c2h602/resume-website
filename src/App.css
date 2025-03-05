@@ -1,0 +1,87 @@
+#root {
+  color: rgb(20, 20, 20);
+}
+
+.navigation {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  font-feature-settings: "pnum", "zero";
+  font-kerning: normal;
+  letter-spacing: -0.01em;
+  font-weight: 400;
+  text-transform: lowercase;
+  font-family: "Suisse Intl Book", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 2em;
+}
+
+.title__container,
+.stack__description {
+  /* display: flex;
+  justify-content: start;
+  gap: 50px;
+  font-size: 60px;
+  margin-left: 2rem; */
+  font-family: "Suisse Intl", sans-serif;
+  font-feature-settings: "pnum", "zero";
+  font-kerning: normal;
+  text-transform: lowercase;
+  font-weight: 400;
+  text-align: left;
+  position: relative;
+  vertical-align: middle;
+  letter-spacing: -0.03em;
+  font-size: 90px;
+  line-height: 94px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  width: 15em;
+  margin-left: 2rem;
+  margin-top: 2em;
+}
+
+.stack__description {
+  margin-top: 1em;
+  font-size: 60px;
+  line-height: 64px;
+}
+
+.project {
+  display: flex;
+  gap: 50px;
+  border-top: 1px solid black;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.title__project {
+  top: 4px;
+  font-size: 64px;
+  line-height: 64px;
+}
+
+.description__project {
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.conctacts__container,
+.projects__container {
+  padding: 36px 0px 64px;
+  text-transform: lowercase;
+  letter-spacing: -0.04em;
+  line-height: 120px;
+  font-size: 132px;
+  margin-left: 2rem;
+}
+
+.contacts__nav {
+  font-size: 36px;
+  margin-left: 2rem;
+}
