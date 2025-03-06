@@ -5,8 +5,8 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  /* background-color: #242424; */
   background-color: #242424;
+  border-color: rgba(255, 255, 255, 0.87);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -37,7 +37,7 @@ h1 {
 }
 
 
-
+/* 
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -55,11 +55,11 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
+} */
 
-title {
+/* title {
   color:#1a1a1a
-}
+} */
 
 img {
   width: 1000px;
@@ -68,8 +68,9 @@ img {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: rgb(20, 20, 20);
     background-color: #ffffff;
+    border-color: black;
   }
   a:hover {
     color: #747bff;
