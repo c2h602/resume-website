@@ -62,8 +62,8 @@ button:focus-visible {
 } */
 
 img {
-  width: 1000px;
-  height: 500px;
+  width: 1200px;
+  height: 600px;
 }
 
 @media (prefers-color-scheme: light) {

@@ -14,4 +14,4 @@ export const Layout = ({ children }: LayoutProps) => {
         {children}
       </>
     );
-  };
+};

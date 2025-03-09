@@ -4,6 +4,7 @@ import coffee from "/src/assets/coffee.png";
 import riddles from "/src/assets/riddles.jpg";
 import morse from "/src/assets/morse.png";
 import charactersCard from "/src/assets/charactersCard.png";
+import aveji from "/src/assets/aveji.png";
 import { Outlet } from "react-router";
 
 export default function Projects() {
@@ -21,6 +22,22 @@ export default function Projects() {
       </div>
 
       <div className="project">
+        <a href="https://github.com/c2h602/furniture-promo-site">
+          <img src={aveji} alt="картинка"></img>
+        </a>
+
+        <div className="info__project">
+          <p className="title__project">aveji</p>
+          <p className="description__project">
+            многостраничный промо-сайт по макету
+            <br />
+            <br />
+            стек: react, typescript, vite, formik
+          </p>
+        </div>
+      </div>
+
+      <div className="project">
         <img src={coffee} alt="картинка"></img>
 
         <div className="info__project">
@@ -35,7 +52,9 @@ export default function Projects() {
       </div>
 
       <div className="project">
-        <img src={todos} alt="картинка"></img>
+        <a href="https://github.com/c2h602/Todos-react">
+          <img src={todos} alt="картинка"></img>
+        </a>
 
         <div className="info__project">
           <p className="title__project">todos</p>
@@ -49,12 +68,14 @@ export default function Projects() {
       </div>
 
       <div className="project">
-        <img src={charactersCard} alt="картинка"></img>
+        <a href="https://github.com/c2h602/charactersCards">
+          <img src={charactersCard} alt="картинка"></img>
+        </a>
 
         <div className="info__project">
           <p className="title__project">rick and morty</p>
           <p className="description__project">
-            тематический проект с карточками персонажей мультсериала рик и морти
+            тематический одностраничный проект с карточками персонажей мультсериала рик и морти
             <br />
             <br />
             стек: react, typescript, vite, redux
@@ -63,7 +84,9 @@ export default function Projects() {
       </div>
 
       <div className="project">
-        <img src={morse} alt="картинка"></img>
+        <a href="https://github.com/c2h602/MorseCode">
+          <img src={morse} alt="картинка"></img>
+        </a>
 
         <div className="info__project">
           <p className="title__project">переводчик текста в азбуку морзе</p>
